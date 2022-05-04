@@ -1,0 +1,219 @@
+/* 
+
+=== FoodGo Lab ===
+
+Do not delete existing CSS
+
+*/
+
+/* == Typography == */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    /*font-size: 14pt;*/
+    font-size: 1rem;
+    /*line-height: 18pt;*/
+    line-height: 1.29rem;
+}
+
+h2 {
+    /*font-size: 30pt;*/
+    font: size 2.14rem;
+}
+
+header,
+footer {
+    color: #b56441;
+}
+
+a {
+    text-decoration: none;
+    color: #b56441;
+    /*font-size: 14pt;*/
+    font-size: 1rem;
+    
+}
+
+#legal {
+    /*font-size: 10pt;*/
+    font-size: 0.71rem;
+    font-style: italic;
+}
+
+#nav a {
+    /*margin-right: 10px;*/
+    margin-right: 0.63rem;
+   /* text-align: center;
+    display: block;        
+    background-color: orange;
+    padding: 0.31rem;*/
+   
+}
+
+#nav a:hover {
+    color: #7d4700;
+}
+
+#splash {
+    text-align: center;
+    /*font-size: 48pt;
+    line-height: 60pt;*/
+    font-size: 3.43rem;
+    line-height: 4.29rem;
+    color: white;
+    text-shadow: 0px 0px 5px #6e6e6e;
+}
+
+footer {
+    font-style: italic;
+}
+
+/* Font Awesome icons */
+.fab {
+    /*font-size: 30pt;*/
+    font-size: 2.14rem;
+   /* margin-right: 10px;*/
+   margin-right: 0.63rem;
+}
+
+.fab:hover {
+    color: ;
+}
+
+button {}
+
+/* == Background == */
+
+
+body {
+    background-color: #fcd303;
+}
+
+main {
+    background-color: #ffdd80;
+
+}
+
+#splash {
+    background-image: url(splash-backing.jpg);
+}
+
+/* == Box Model == */
+
+body {
+    /*margin: 0px;
+    padding: 0px;*/
+    margin: 0rem;
+    padding: 0rem;
+}
+
+footer {
+    /*padding: 10px;*/
+    padding: 0.63rem;
+}
+
+header {
+    /*padding: 20px;*/
+    padding: 1.25rem;
+   
+}
+
+button {
+    border: 0rem;
+    background-color: #b56441;
+    color: #fff;
+   /* padding: 20px;*/
+   padding: 1.25rem;
+    /*font-size: 30pt;*/
+   /* margin-top: 15px;*/
+   margin-top: 0.94rem;
+    font-size: 2.14rem;
+}
+
+footer {
+    /*padding-top: 50px;*/
+    padding-top: 3.13rem;
+}
+
+#splash {
+    /*height: 400px;*/
+    height: 25rem;
+}
+
+#app {
+    /*height: 200px;*/
+    height: 12.5rem;
+}
+
+/* === Layout  === */
+
+
+/* = Grid =*/
+
+
+
+header,
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#app {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* = Flexbox = */
+
+#app,
+#splash {
+    display: flex;
+}
+
+#app,
+#splash {
+    align-items: center;
+    justify-content: center;
+}
+
+/* = Other = */
+
+* {
+    box-sizing: border-box;
+}
+
+#social-media {
+    text-align: right;
+    
+}
+
+#app {
+    text-align: center;
+}
+
+#mobile-menu {
+    position: fixed;
+    top: 10px;
+    /*left: 10px;*/
+   
+     right:0px;
+        
+    
+    }
+
+
+
+
+/*#mobile-menu{
+    text-align: right;
+}*/

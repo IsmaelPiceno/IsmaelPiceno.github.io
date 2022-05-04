@@ -1,0 +1,103 @@
+/* === For your Responsive CSS === */
+img {
+    max-width: 100%;
+    }
+
+    @media screen and (max-width:600px){
+        
+        header {
+            grid-template-columns: 100%;
+            }
+            #splash {
+                font-size: 2rem;
+                line-height: 2.5rem;
+                height: 10.7rem;
+                }
+                #nav a{
+                    text-align: center;
+                   display: block;
+                    background-color: orange;
+                   /*background-color: #fbec93;*/
+                    padding: 0.31rem;
+                  /*margin-top: -65px;-->*/
+                  margin-top: -45px;
+                  padding: 30px;
+                  
+                 
+                }
+                #logo{
+                    text-align: center;
+                }
+                
+                /*#legal{
+                    text-align: center;
+                 
+                    
+                   
+                }*/
+                #social-media{
+                    text-align: center;
+                    
+                   
+                }
+                footer{
+                    text-align: center;
+                    display: grid;
+                    grid-template-columns: 100%;
+                    grid-row: 2;
+                }
+                main {
+                    grid-template-columns: 100%;
+                    text-align:center;
+                    }
+
+
+                    #splash {
+                        grid-column: 1/2;
+                        }
+                        #app {
+                        grid-column: 1/2;
+                        }
+
+                       
+
+                 
+    }
+
+    @media screen and (min-width:601px){
+        #mobile-menu{
+            display: none;
+        }
+    }
+
+    @media (prefers-color-scheme: dark){
+        
+        header{
+            background-color: #9c9c9c;
+        }
+        footer{
+            color: white;
+            background: gray;
+        }
+        #nav a{
+            color: white;
+            /*background-color: #b8b8b8;*/
+        }
+
+        main{
+            background: grey;
+        }
+
+        .app-text{
+            color: white;
+        }
+
+        div{
+            background: grey;
+        }
+
+        #mobile-menu{
+            background: none;
+        }
+        
+    }
